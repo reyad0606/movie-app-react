@@ -3,11 +3,14 @@ body {
   color: #ffffff;
 }
 
+.container-fluid {
+  display: 100%;
+}
+
 .movie-app > .row {
   overflow-x: auto;
   flex-wrap: nowrap;
   justify-content: space-between;
-  /* max-width: 300px; */
 }
 
 .movie-app > .row::-webkit-scrollbar {
@@ -44,4 +47,5 @@ body {
   color: #ffffff;
 }
 
-m2-r {}
+m2-r {
+}
