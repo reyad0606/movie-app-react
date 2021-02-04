@@ -6,6 +6,12 @@ body {
 .movie-app > .row {
   overflow-x: auto;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  /* max-width: 300px; */
+}
+
+.movie-app > .row::-webkit-scrollbar {
+  display: none;
 }
 
 .image-container {
@@ -33,3 +39,9 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.mr-2 {
+  color: #ffffff;
+}
+
+m2-r {}
